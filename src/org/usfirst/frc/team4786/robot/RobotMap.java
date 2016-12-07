@@ -19,6 +19,14 @@ public class RobotMap {
 	
 	public static final double scaling = .6;
 	
+    //PID Values
+    public static final int allowableClosedLoopErrValue = 0;
+    public static final int fDriveTrain = 0;
+    public static final int pDriveTrain = 0;
+    public static final int iDriveTrain = 0;
+    public static final int dDriveTrain = 0;
+    
+	
     /* For example to map the left and right motors, you could define the
      following variables to use with your drivetrain subsystem.
      If you are using multiple modules, make sure to define both the port
